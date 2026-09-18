@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pequeños recuerdos — Para Joha</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="wrap" style="position:relative; z-index:1;">
+    <a class="back-link" href="../page2.html">← volver a la mesa</a>
+
+    <h2 class="center">Pequeños recuerdos</h2>
+    <p class="center eyebrow-note">toca cada punto del mapa</p>
+
+
+    <div class="colombia-map">
+      <img class="map-bg" src="../assets/mapa-colombia.png" alt="Mapa de Colombia">
+
+      <button class="map-pin" style="top:8%; left:60%;"  data-img="../assets/recuerdo-01.jpeg" aria-label="Recuerdo 1">1</button>
+      <button class="map-pin" style="top:14%; left:50%;" data-img="../assets/recuerdo-02.jpeg" aria-label="Recuerdo 2">2</button>
+      <button class="map-pin" style="top:20%; left:52%;" data-img="../assets/recuerdo-03.jpeg" aria-label="Recuerdo 3">3</button>
+      <button class="map-pin" style="top:25%; left:41%;" data-img="../assets/recuerdo-04.jpeg" aria-label="Recuerdo 4">4</button>
+      <button class="map-pin" style="top:33%; left:55%;" data-img="../assets/recuerdo-05.jpeg" aria-label="Recuerdo 5">5</button>
+      <button class="map-pin" style="top:40%; left:45%;" data-img="../assets/recuerdo-06.jpeg" aria-label="Recuerdo 6">6</button>
+      <button class="map-pin" style="top:37%; left:67%;" data-img="../assets/recuerdo-07.jpeg" aria-label="Recuerdo 7">7</button>
+      <button class="map-pin" style="top:48%; left:40%;" data-img="../assets/recuerdo-08.jpeg" aria-label="Recuerdo 8">8</button>
+      <button class="map-pin" style="top:55%; left:57%;" data-img="../assets/recuerdo-09.jpeg" aria-label="Recuerdo 9">9</button>
+      <button class="map-pin" style="top:61%; left:82%;" data-img="../assets/recuerdo-10.jpeg" aria-label="Recuerdo 10">10</button>
+      <button class="map-pin" style="top:70%; left:50%;" data-img="../assets/recuerdo-11.jpeg" aria-label="Recuerdo 11">11</button>
+      <button class="map-pin" style="top:85%; left:69%;" data-img="../assets/recuerdo-12.jpeg" aria-label="Recuerdo 12">12</button>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar">✕</button>
+    <img id="lightbox-img" src="" alt="Recuerdo">
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
